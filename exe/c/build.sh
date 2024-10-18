@@ -1,2 +1,2 @@
 #!/bin/sh
-gcc hello.c -o hello
+gcc hello.c -gdwarf-2 -o hello
