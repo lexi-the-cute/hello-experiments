@@ -1,3 +1,5 @@
+; This program just prints `hello world\n`, then exits
+
 global _start
 
 section .text
@@ -14,5 +16,5 @@ _start:
   syscall           ; );
 
 section .rodata
-  msg: db "hello world", 10
+  msg: db "hello world", 0x0A
   msglen: equ $ - msg

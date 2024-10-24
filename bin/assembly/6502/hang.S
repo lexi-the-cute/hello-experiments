@@ -1,6 +1,9 @@
+; This program sets the Non-Maskable Interrupt, Software Interrupt, and then hangs the program
+
 ; https://raw.githubusercontent.com/dasm-assembler/dasm/master/docs/dasm.pdf
 ; http://www.6502.org/users/obelisk/6502/instructions.html
 ; https://www.westerndesigncenter.com/wdc/documentation/w65c02s.pdf
+; https://github.com/dasm-assembler/dasm
 
     ; Tells dasm to assemble for processor 6502
     processor 6502
